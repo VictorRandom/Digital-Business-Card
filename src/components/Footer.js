@@ -8,6 +8,7 @@ const Footer = () => {
             <div>logo 2</div>
             <div>logo 3</div>
             <div>logo 4</div>
+            <div>logo 5</div>
         </div>    
     );
 };

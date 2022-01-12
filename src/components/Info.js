@@ -1,15 +1,18 @@
 import React from 'react';
+import './Info.css';
 
 const Info = () => {
     return(
         <div className="info">
             <div>
-            <h4>About</h4>
-            <p>I am a frontend developer</p>
+                <div className="about">About</div>
+                <div className="text">I am a frontend developer with a little bit of knowledge about backend.
+                                    I also have a MBA of project management and I'm graduated as a civil engineer.
+                                    Always looking for more information and new things to learn.</div>
             </div>
             <div className="interests">
-            <h4>Interests</h4>
-            <p>Soccer expert.</p>
+                <div className="about">Interests</div>
+                <div className="text">Soccer Expert in love with Goiás Esporte Clube. Irregular Cooker. Love to play Video Games. Travel Geek. Country Music Style. Addicted to pizza.</div>
             </div>
         </div>    
     );

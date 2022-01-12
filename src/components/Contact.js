@@ -1,11 +1,10 @@
 import React from 'react';
+import { FaEnvelope } from 'react-icons/fa';
+import './Contact.css';
 
 const Contact = () => {
     return(
-        <div className="contact">
-            <button>Email</button>
-            <button>LinkedIn</button>
-        </div>  
+            <button id="contact"><FaEnvelope id="logo" />  Email</button>
     );
 };
 
