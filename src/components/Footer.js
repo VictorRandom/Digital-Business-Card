@@ -1,16 +1,23 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import {
+  FaTwitterSquare,
+  FaFacebookSquare,
+  FaInstagramSquare,
+  FaLinkedin,
+  FaGithubSquare
+} from "react-icons/fa";
+import "./Footer.css";
 
 const Footer = () => {
-    return(
-        <div className="footer">
-            <div>logo 1</div>
-            <div>logo 2</div>
-            <div>logo 3</div>
-            <div>logo 4</div>
-            <div>logo 5</div>
-        </div>    
-    );
+  return (
+    <div className="footer">
+      <FaTwitterSquare className="logo" ></FaTwitterSquare>
+      <FaFacebookSquare className="logo" ></FaFacebookSquare>
+      <FaInstagramSquare className="logo" ></FaInstagramSquare>
+      <FaLinkedin className="logo" ></FaLinkedin>
+      <FaGithubSquare className="logo" ></FaGithubSquare>
+    </div>
+  );
 };
 
 export default Footer;
