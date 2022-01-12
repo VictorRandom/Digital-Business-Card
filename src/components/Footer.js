@@ -4,18 +4,28 @@ import {
   FaFacebookSquare,
   FaInstagramSquare,
   FaLinkedin,
-  FaGithubSquare
+  FaGithubSquare,
 } from "react-icons/fa";
 import "./Footer.css";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <FaTwitterSquare className="logo" ></FaTwitterSquare>
-      <FaFacebookSquare className="logo" ></FaFacebookSquare>
-      <FaInstagramSquare className="logo" ></FaInstagramSquare>
-      <FaLinkedin className="logo" ></FaLinkedin>
-      <FaGithubSquare className="logo" ></FaGithubSquare>
+      <a href="https://twitter.com/Victor_Random">
+        <FaTwitterSquare className="logo" />
+      </a>
+      <a href="https://www.facebook.com/victor.mirandabalduino">
+        <FaFacebookSquare className="logo" />
+      </a>
+      <a href="https://www.instagram.com/victormbalduino/">
+        <FaInstagramSquare className="logo" />
+      </a>
+      <a href="https://www.linkedin.com/in/victor-balduino-625b77b1/">
+        <FaLinkedin className="logo" />
+      </a>
+      <a href="https://github.com/VictorRandom">
+        <FaGithubSquare className="logo" />
+      </a>
     </div>
   );
 };
