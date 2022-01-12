@@ -5,7 +5,7 @@ const Contact = () => {
         <div className="contact">
             <button>Email</button>
             <button>LinkedIn</button>
-        </div>
+        </div>  
     );
 };
 
