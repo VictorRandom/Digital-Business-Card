@@ -3,7 +3,6 @@ import './Container.css'
 import Header from './Header';
 import Contact from './Contact';
 import Info from './Info';
-import Footer from './Footer';
 
 const Container = () => {
     return(
@@ -11,7 +10,6 @@ const Container = () => {
             <Header />
             <Contact />
             <Info />
-            <Footer />
         </div>
     );
 };
